@@ -1,0 +1,38 @@
+@startmindmap
+* Data Science
+** AI
+*** Reasoning, problem solving
+**** Probabilistinc Model of the world
+*** Knowledge representation
+**** IBM Watson 
+**** Jeopardy
+**** Onthology (Knowledge Graphs)
+*** Planning & Decision Making
+**** Chess
+**** AlphaGo
+**** Video Ganme AI
+**** Self driving cars
+*** Machine Learning
+*** NLP - Natural language processing
+**** Chat 
+**** Translate
+**** Alexa
+**** NER - Named Entity Recognition
+**** Question Answering
+**** Summarization
+*** Perception
+**** Lidar
+**** Camera
+**** Microphone
+*** Motion and manipulation
+**** Robotics
+**** Actuators - car break, wheel
+**** Boston Dynamics robots
+*** Social intelligence
+**** Robo therapist
+**** Sentiment analsys
+**** Vision detection
+*** AGI - General intelligence
+**** Pie in sky goal
+** ML
+@endmindmap
