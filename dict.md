@@ -8,7 +8,7 @@
 # D
 # E
 - epoch
-  - TBD
+  - An epoch is when all the training data is used at once and is defined as the total number of iterations of all the training data in one cycle for training the machine learning model. 
 # F
 # G
 # H
@@ -19,26 +19,26 @@
   - The name "Jupyter" is derived from the three core programming languages it initially supported: Julia, Python, and R.
 # K
 - keras
-  - TBD
+  - Keras is a high-level neural network library that runs on top of TensorFlow.
 # L
 # M
 # N
-- numpy
-  - TBD
+- NumPy
+  - NumPy is a Python library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices.
 # O
 # P
 # Q
 # R
 # S
 - stochastic gradient descent (sgd)
-  - TBD
+  - SGD is an iterative optimization algorithm that aims to minimize a cost function by updating the model parameters in the opposite direction of the gradient of the cost function. 
 - Spyder
   - A free and open source scientific environment written in Python.
 # T
 - Tensor
   - A tensor is a generalization of vectors and matrices and is easily understood as a multidimensional array. A vector is a one dimensional or first order tensor and a matrix is a two dimensional or second order tensor.
 - tensorflow
-  -
+  - TensorFlow is an end-to-end open source platform for machine learning.
 # U
 # V
 # W
