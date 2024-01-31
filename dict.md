@@ -29,6 +29,8 @@
 - filter 
   - A filter, or kernel, in a CNN is a small matrix of weights that slides over the input data (such as an image), performs element-wise multiplication with the part of the input it is currently on.
 # G
+- Gini index
+  - TBD
 - Gradient Descent
   - TBD
 # H
