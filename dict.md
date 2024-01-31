@@ -8,20 +8,20 @@
 - convolution
   - convolution is a mathematical way of combining two signals to form a third signal.
 - CNN
-  - TBD
+  - A specialized type of neural network designed for visual data processing, leveraging convolutional layers to automatically learn hierarchical features from images, making it effective for tasks like image classification and object detection.
 - Clustering
-  - TBD
+  - A machine learning technique that involves grouping similar data points together based on certain features or characteristics, facilitating pattern discovery and analysis within datasets.
 - cv2 
   - cv2 is a powerful library for working with images in Python.
 # D
 - data leakage
-  - TBD
+  - The inadvertent inclusion of information in the training process that should only be available during the testing phase, often resulting in over-optimistic model performance estimates due to the unintentional exposure to future information.
 - Decision Trees
-  - TBD
+  - Tree-like models that represent decisions and their potential consequences, where each node corresponds to a decision based on a specific feature, commonly used in classification and regression tasks to create interpretable and easily understandable models.
 - dense layer
-  - TBD
+  - A fully connected layer in a neural network where each neuron is connected to every neuron in the adjacent layers, allowing for complex pattern recognition and feature learning in various machine learning tasks.
 - Deep Neural Networks
-  - TBD
+  - A sophisticated neural network architecture with multiple hidden layers, enabling the model to automatically learn intricate representations and hierarchies of features from the input data, often used for complex tasks like image recognition, natural language processing, and more.
 # E
 - epoch
   - An epoch is when all the training data is used at once and is defined as the total number of iterations of all the training data in one cycle for training the machine learning model. 
@@ -49,6 +49,9 @@
   - TBD
 - Logistic Regression
   - TBD
+- Loss Function
+  - TBD
+
 # M
   - Multiple Regression 
     - TBD
@@ -56,6 +59,8 @@
 - NumPy
   - NumPy is a Python library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices.
 # O
+- optimizer 
+  - TBD
 - overfitting
   - TBD
 # P
@@ -95,6 +100,9 @@
 - tensorflow
   - TensorFlow is an end-to-end open source platform for machine learning.
 # U
+- Underfitting 
+  - TBD
+
 # V
 # W
 # X
