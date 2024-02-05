@@ -5,6 +5,8 @@
 # A
 - Activation function
   - An activation function is a mathematical operation applied to the output of a neuron in a neural network. It determines whether the neuron should be activated or not based on the weighted sum of its inputs. Activation functions introduce non-linearity, allowing neural networks to learn complex patterns and relationships in data. Common activation functions include Sigmoid, Hyperbolic Tangent (tanh), Rectified Linear Unit (ReLU), Leaky ReLU, and Softmax.
+- Adam 
+  - Adam, short for "Adaptive Moment Estimation," is an optimization algorithm commonly used in machine learning for training deep neural networks. It combines the benefits of two other popular optimization methods, RMSprop and Momentum.
 # B
 - backpropagation
   - Backpropagation, short for "backward propagation of errors," is a supervised learning algorithm used in the training of artificial neural networks. It involves the iterative adjustment of the network's weights based on the difference between the predicted output and the actual target values. The process starts with a forward pass, where input data is fed through the network to generate predictions. The error is then calculated by comparing these predictions to the actual targets. In the backward pass, the error is propagated backward through the network, and the weights are updated using optimization techniques, such as gradient descent, to minimize the error. Backpropagation enables neural networks to learn and improve their performance by adjusting their internal parameters during the training process.
@@ -76,12 +78,13 @@
   - NumPy is a Python library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices.
 # O
 - optimizer 
-  - TBD
+  - An optimizer in the context of machine learning refers to an algorithm or method used to adjust the parameters of a model during training to minimize the error or loss function. The primary goal of optimization is to find the optimal set of parameters that result in the best performance of the model on the training data.
 - overfitting
-  - TBD
+  - Overfitting is a common issue in machine learning where a model learns the training data too well, capturing noise and random fluctuations instead of the underlying patterns. As a result, an overfit model performs exceptionally well on the training data but fails to generalize effectively to new, unseen data.
 # P
 - pandas
-  - TBD
+  - Pandas and NumPy are two popular Python libraries used for data manipulation and analysis.
+    Pandas is designed for data manipulation and analysis, especially for working with labeled and relational data. Pandas provides two primary data structures: Series (1-dimensional labeled array) and DataFrame (2-dimensional labeled data structure, like a table in a database). Use Pandas for data manipulation, cleaning, and analysis, especially when dealing with labeled or tabular data.
 - Principal Component Analysis
   - TBD
 - Perceptrons
@@ -90,6 +93,9 @@
   - TBD
 - Plotly
   - TBD
+- PyTorch
+  - TBD
+
 # Q
 # R
 - Recommendation Systems

@@ -4,13 +4,30 @@ from sklearn.datasets import fetch_openml
 from sklearn.model_selection import train_test_split
 from sklearn.utils import check_random_state
 import random
-from sklearn import tree
+from sklearn.tree import DecisionTreeClassifier
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.neural_network import MLPClassifier
 
 X, y = fetch_openml('mnist_784', version=1, return_X_y=True)
 
+def inspect_mnist_data(X, y):
+    # Load the MNIST dataset
+    # Print the shape of the data
+    print("Shape of X:", X.shape)
+    print("Shape of y:", y.shape)
+
+    # Print unique labels in y
+    unique_labels = set(y)
+    print("Unique labels in y:", unique_labels)
+
+    # Print summary statistics of X
+    print("Summary statistics of X:")
+    print("Mean:", X.mean())
+    print("Standard Deviation:", X.std())
+
+# Call the function to inspect the data
+#inspect_mnist_data(X, y)
 
 # divide the data into a training set 
 # and test set, randomly selecting 5000 examples for training.
@@ -38,7 +55,7 @@ y_train[i]
 
 # Let's see how a decision tree with 170 decision 
 # rules performs by training it and printing its accuracy.
-clf = tree.DecisionTreeClassifier(max_leaf_nodes = 170)	
+clf = DecisionTreeClassifier(max_leaf_nodes = 170)	
 clf = clf.fit(X_train, y_train)			
 correct = 0						
 for i in range(len(X_test)):	
@@ -46,7 +63,7 @@ for i in range(len(X_test)):
   acc = [100.0* correct / len(X_test)]
 print("decision tree")
 print("--------------")
-print(acc)
+print("{:.3f}".format(acc[0]/100))
 
 # Now let's try a simple neural network, a multi-layer 
 # perceptron with no hidden layers.
