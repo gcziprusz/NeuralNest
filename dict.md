@@ -10,6 +10,10 @@
 # B
 - backpropagation
   - Backpropagation, short for "backward propagation of errors," is a supervised learning algorithm used in the training of artificial neural networks. It involves the iterative adjustment of the network's weights based on the difference between the predicted output and the actual target values. The process starts with a forward pass, where input data is fed through the network to generate predictions. The error is then calculated by comparing these predictions to the actual targets. In the backward pass, the error is propagated backward through the network, and the weights are updated using optimization techniques, such as gradient descent, to minimize the error. Backpropagation enables neural networks to learn and improve their performance by adjusting their internal parameters during the training process.
+- Bag of words
+  - TBD
+- Bayes rule
+  - TBD
 # C
 - convolution
   - convolution is a mathematical way of combining two signals to form a third signal.
@@ -36,7 +40,13 @@
 # F
 - filter 
   - A filter, or kernel, in a CNN is a small matrix of weights that slides over the input data (such as an image), performs element-wise multiplication with the part of the input it is currently on.
+- fittness landscape
+  - TBD
 # G
+- Generative model
+  - TBD
+- genetic programming
+  - TBD
 - Gini index
   - TBD
 - Gradient Descent
@@ -67,16 +77,31 @@
   - TBD
 
 # M
-  - Multiple Regression 
-    - TBD
+- Maximum Likelihood Estimation (MLE)
+ - It is a statistical method used to estimate the parameters of a probability distribution based on observed data. The goal of MLE is to find the set of parameter values that maximize the likelihood function, which measures the probability of observing the given data under the assumed probability distribution.
+- Multiple Regression 
+  - Multiple regression is a statistical technique used to analyze the relationship between a dependent variable and two or more independent variables. It extends the concept of simple linear regression, which involves predicting a dependent variable based on a single independent variable, to cases where there are multiple predictors.
 - MLP 
-  - TBD
+  - MLP stands for Multilayer Perceptron, which is a type of artificial neural network (ANN) composed of multiple layers of neurons (nodes) arranged in a feedforward manner. MLPs are one of the most common types of neural networks used in machine learning and are widely applied to various tasks, including classification, regression, and pattern recognition.
 - MNIST 
-  - TBD
+  - MNIST stands for Modified National Institute of Standards and Technology database, and it's a widely used dataset in the field of machine learning and computer vision. It consists of a large collection of handwritten digits that are commonly used for training various image classification algorithms.
 # N
+- Naive bayes
+  - Naive Bayes is a classification algorithm based on Bayes' theorem with an assumption of independence among predictors (features). It's a simple yet effective algorithm commonly used for text classification and other classification tasks in machine learning.
+- NEAT
+  - NEAT, which stands for NeuroEvolution of Augmenting Topologies, is a genetic algorithm-based approach.
 - NumPy
   - NumPy is a Python library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices.
 # O
+- One-hot encoding 
+  - It is a technique used to represent categorical variables as binary vectors. In the context of machine learning, it's often employed to represent categorical labels in a format that's suitable for training models. 
+  For example, consider a categorical variable representing fruit types: {apple, banana, cherry}. The one-hot encoding would be:
+
+    ```
+    apple: [1, 0, 0]
+    banana: [0, 1, 0]
+    cherry: [0, 0, 1]
+    ```
 - optimizer 
   - An optimizer in the context of machine learning refers to an algorithm or method used to adjust the parameters of a model during training to minimize the error or loss function. The primary goal of optimization is to find the optimal set of parameters that result in the best performance of the model on the training data.
 - overfitting
@@ -89,6 +114,8 @@
   - TBD
 - Perceptrons
   - TBD
+- probibilistic context free grammar
+  - TBD 
 - pooling
   - TBD
 - Plotly
@@ -113,25 +140,29 @@
 - stochastic gradient descent (sgd)
   - SGD is an iterative optimization algorithm that aims to minimize a cost function by updating the model parameters in the opposite direction of the gradient of the cost function. 
 - Sparse Categorical Crossentropy (SCC)
-  - TBD
+  - Sparse Categorical Crossentropy (SCC) is a loss function used in multiclass classification tasks where the target labels are integers (sparse representation) rather than one-hot encoded vectors. It is commonly used in machine learning frameworks like TensorFlow and Keras.
 - Sigmoid function 
-  - TBD
+  - The sigmoid function is a mathematical function that maps input values to a smooth S-shaped curve, typically ranging from 0 to 1 or -1 to 1. In machine learning, the sigmoid function is commonly used as an activation function in neural networks, particularly in the output layer for binary classification problems. It is also used in logistic regression models to model binary outcomes and in other contexts where the output needs to be bounded between 0 and 1.
 - Spyder
   - A free and open source scientific environment written in Python.
+- symbolic regression
+  - Symbolic regression is a machine learning technique that aims to find mathematical expressions or formulas that best describe a given dataset. Unlike traditional regression methods that fit parametric models (such as linear regression or polynomial regression) to data, symbolic regression seeks to discover mathematical relationships in an unrestricted, symbolic form.
 # T
 - tableau
-  - TBD
+  - Tableau is a powerful data visualization software that allows users to create interactive and shareable dashboards, reports, and visualizations from various data sources. Developed by Tableau Software, now a part of Salesforce, Tableau provides a user-friendly interface for analyzing and presenting data in a visually compelling manner.
 - Tensor
   - A tensor is a generalization of vectors and matrices and is easily understood as a multidimensional array. A vector is a one dimensional or first order tensor and a matrix is a two dimensional or second order tensor.
 - tensorflow
   - TensorFlow is an end-to-end open source platform for machine learning.
+- TFIDF (Term Frequency-Inverse Document Frequency)
+  -  It's a numerical statistic used in information retrieval and text mining to evaluate the importance of a word in a document relative to a collection of documents (corpus). TF-IDF is commonly used as a feature extraction technique in natural language processing (NLP) tasks, such as document classification, clustering, and search engine ranking. (TF): Term frequency measures how frequently a term (word) occurs in a document. (IDF): Inverse document frequency measures the importance of a term across the entire corpus. It's calculated by dividing the total number of documents in the corpus by the number of documents containing the term, and then taking the logarithm of the result. Terms that occur in many documents are given lower weights, while terms that occur in fewer documents are given higher weights.
 - trigonometric functions (cos ...)
-  - TBD
+  - Trigonometric functions are mathematical functions that relate the angles of a right triangle to the ratios of the lengths of its sides. In machine learning, trigonometric functions can be utilized in various ways, especially when dealing with problems involving periodic patterns or cyclic data.
+- tree bank
+  - A "treebank" refers to a type of corpus or dataset used in natural language processing (NLP) and computational linguistics for syntactic analysis and parsing. It is a collection of sentences annotated with syntactic structures, typically represented as parse trees. Treebanks are essential resources in NLP research and development, as they enable the development and evaluation of syntactic analysis algorithms and models. They are often created manually by linguists or annotated using automated tools and are available for various languages and domains. Well-known treebanks include the Penn Treebank for English, the Universal Dependencies project, and the Prague Dependency Treebank for Czech.
 # U
-- universality 
-  - TBD
 - Underfitting 
-  - TBD
+  - Underfitting occurs when a machine learning model is too simple to capture the underlying structure of the data. In other words, the model is not able to learn the training data effectively, leading to poor performance on both the training data and new, unseen data. Underfitting typically happens when the model is too simple or lacks the capacity to represent the complexity of the underlying data distribution.
 
 # V
 # W
