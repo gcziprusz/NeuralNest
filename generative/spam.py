@@ -1,6 +1,6 @@
-#curl -o ./vocab.txt https://github.com/mlittmancs/great_courses_ml/raw/master/data/vocab.txt
-#curl -o ./spam-test.csv https://github.com/mlittmancs/great_courses_ml/raw/master/data/spam-test.csv
-#curl -o ./spam-train.csv https://github.com/mlittmancs/great_courses_ml/raw/master/data/spam-train.csv
+#curl -LO https://github.com/mlittmancs/great_courses_ml/raw/master/data/vocab.txt
+#curl -LO https://github.com/mlittmancs/great_courses_ml/raw/master/data/spam-test.csv
+#curl -LO https://github.com/mlittmancs/great_courses_ml/raw/master/data/spam-train.csv
 
 from sklearn import tree
 import graphviz 

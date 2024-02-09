@@ -1,5 +1,5 @@
 # # download the data file run:
-# # curl -o ./diabetes.csv https://raw.githubusercontent.com/plotly/datasets/master/diabetes.csv
+# # curl -LO https://raw.githubusercontent.com/plotly/datasets/master/diabetes.csv
 from sklearn import tree
 import graphviz 
 

@@ -1,5 +1,5 @@
-#curl -o https://github.com/mlittmancs/great_courses_ml/raw/master/imgs/greenML.png
-#curl -o https://github.com/mlittmancs/great_courses_ml/raw/master/imgs/forest.jpg
+#curl -LO https://github.com/mlittmancs/great_courses_ml/raw/master/imgs/greenML.png
+#curl -LO https://github.com/mlittmancs/great_courses_ml/raw/master/imgs/forest.jpg
 
 import numpy as np
 from tensorflow import keras

@@ -11,9 +11,9 @@
 - backpropagation
   - Backpropagation, short for "backward propagation of errors," is a supervised learning algorithm used in the training of artificial neural networks. It involves the iterative adjustment of the network's weights based on the difference between the predicted output and the actual target values. The process starts with a forward pass, where input data is fed through the network to generate predictions. The error is then calculated by comparing these predictions to the actual targets. In the backward pass, the error is propagated backward through the network, and the weights are updated using optimization techniques, such as gradient descent, to minimize the error. Backpropagation enables neural networks to learn and improve their performance by adjusting their internal parameters during the training process.
 - Bag of words
-  - TBD
+  - Bag of Words (BoW) is a foundational technique in natural language processing (NLP) for representing text data in a structured format suitable for machine learning algorithms. It involves breaking down a piece of text into individual words (or tokens) and creating a numerical representation based on the frequency of occurrence of these words within the text.
 - Bayes rule
-  - TBD
+  - Bayes' Rule, also known as Bayes' Theorem or Bayes' Law, is a fundamental principle in probability theory named after the Reverend Thomas Bayes. It provides a mathematical framework for updating the probability of a hypothesis in light of new evidence.
 # C
 - convolution
   - convolution is a mathematical way of combining two signals to form a third signal.
@@ -32,30 +32,38 @@
   - A fully connected layer in a neural network where each neuron is connected to every neuron in the adjacent layers, allowing for complex pattern recognition and feature learning in various machine learning tasks.
 - Deep Neural Networks
   - A sophisticated neural network architecture with multiple hidden layers, enabling the model to automatically learn intricate representations and hierarchies of features from the input data, often used for complex tasks like image recognition, natural language processing, and more.
+- dot product 
+  - The dot product, also known as the scalar product or inner product, is a mathematical operation that takes two equal-length sequences of numbers (usually vectors) and returns a single scalar value. It is denoted by a dot (.) or sometimes by simply placing the vectors side by side without any operator.
 - differential calculus
-  - TBD
+  - Differential calculus is a branch of calculus that focuses on studying the rates at which quantities change. It deals with concepts such as derivatives and rates of change. Differential calculus is fundamental in many fields of science, engineering, economics, and more, as it provides tools for understanding how quantities behave and how they are related to each other.
 # E
 - epoch
   - An epoch is when all the training data is used at once and is defined as the total number of iterations of all the training data in one cycle for training the machine learning model. 
 # F
+- feature engineering 
+  - Feature engineering is a crucial process in machine learning and data science that involves selecting, transforming, and creating input variables (features) to improve the performance of predictive models. It aims to enhance the quality and relevance of the features used by the model, thereby improving its ability to make accurate predictions or classifications.
 - filter 
   - A filter, or kernel, in a CNN is a small matrix of weights that slides over the input data (such as an image), performs element-wise multiplication with the part of the input it is currently on.
 - fittness landscape
-  - TBD
+  - In machine learning, a fitness landscape is a conceptual model used to represent the relationship between different sets of model parameters (or solutions) and their corresponding performance metrics (fitness). It provides a way to visualize and understand how the performance of a machine learning model changes as its parameters vary.
 # G
 - Generative model
-  - TBD
+  - 
+A generative model is a type of model in machine learning that learns the underlying probability distribution of the training data in order to generate new data samples that are similar to the training data. Generative models are used to model the joint probability distribution P(X,Y) of input features X and target labels Y, or just the distribution P(X) of input features.
+
 - genetic programming
-  - TBD
+  - Genetic programming (GP) is a type of evolutionary algorithm used in machine learning and optimization. It is inspired by the process of natural selection and Darwinian evolution. Genetic programming evolves computer programs, represented as hierarchical structures (usually trees), to solve a specific problem or perform a given task.
+
 - Gini index
-  - TBD
+  - The Gini index, also known as the Gini impurity, is a measure of the impurity or disorder of a set of data points in the context of classification problems. It is commonly used in decision tree algorithms, such as CART (Classification and Regression Trees), to evaluate the quality of a split at a given node.
+
 - Gradient Descent
-  - TBD
+  - Gradient descent is an optimization algorithm used to minimize the cost function or loss function in machine learning and deep learning models. It is a first-order iterative optimization algorithm that moves towards the minimum of the function by taking steps proportional to the negative of the gradient of the function at the current point.
 # H
 - H20
-  - TBD
+  - H2O is an open-source, distributed machine learning platform designed for big data analytics and machine learning tasks. It provides scalable and efficient implementations of popular machine learning algorithms, enabling users to perform advanced analytics on large datasets using distributed computing techniques.
 - hyper parameters
-  - TBD
+  - Hyperparameters are parameters that are not directly learned from the training data but are set prior to the training process. They control the behavior and performance of machine learning algorithms and models and are typically tuned during the training process to optimize the model's performance on the validation or test data.
 # I
 # J
 - jupyter
@@ -67,16 +75,23 @@
 - kernel
   - A filter is a collection of kernels, although the ml domain may use the two terms filter and kernel interchangeably.
 # L
+- l2 norm
+  - The L2 norm, also known as the Euclidean norm or the Euclidean distance, is a measure of the magnitude of a vector in Euclidean space. It is defined as the square root of the sum of the squared absolute values of the components of the vector. 
 - Linear Regression 
-  - TBD
+  - 
+Linear regression is a statistical method used to model the relationship between a dependent variable (often denoted as 
+(Y) and one or more independent variables (often denoted as 
+(X). It assumes a linear relationship between the independent variables and the dependent variable. Linear regression is widely used for prediction and inference tasks in various fields, including economics, finance, engineering, and social sciences.
 - learnability
-  - TBD
+  - In the context of machine learning, learnability refers to the theoretical and practical aspects of whether a particular problem or concept can be learned from data. It encompasses the questions of whether a given learning algorithm can effectively learn a target function from training data and whether the learned model can generalize well to unseen data.
 - Logistic Regression
   - TBD
 - Loss Function
   - TBD
 
 # M
+- manhattan distance
+  - TBD
 - Maximum Likelihood Estimation (MLE)
  - It is a statistical method used to estimate the parameters of a probability distribution based on observed data. The goal of MLE is to find the set of parameter values that maximize the likelihood function, which measures the probability of observing the given data under the assumed probability distribution.
 - Multiple Regression 
