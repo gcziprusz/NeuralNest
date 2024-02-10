@@ -14,7 +14,11 @@
   - Bag of Words (BoW) is a foundational technique in natural language processing (NLP) for representing text data in a structured format suitable for machine learning algorithms. It involves breaking down a piece of text into individual words (or tokens) and creating a numerical representation based on the frequency of occurrence of these words within the text.
 - Bayes rule
   - Bayes' Rule, also known as Bayes' Theorem or Bayes' Law, is a fundamental principle in probability theory named after the Reverend Thomas Bayes. It provides a mathematical framework for updating the probability of a hypothesis in light of new evidence.
+- Binary Cross-Entropy Loss
+  - TBD
 # C
+- Categorical Cross-Entropy Loss
+  - TBD
 - convolution
   - convolution is a mathematical way of combining two signals to form a third signal.
 - CNN
@@ -60,6 +64,10 @@ A generative model is a type of model in machine learning that learns the underl
 - Gradient Descent
   - Gradient descent is an optimization algorithm used to minimize the cost function or loss function in machine learning and deep learning models. It is a first-order iterative optimization algorithm that moves towards the minimum of the function by taking steps proportional to the negative of the gradient of the function at the current point.
 # H
+- Hinge Loss
+  - TBD
+- Huber Loss
+  - TBD
 - H20
   - H2O is an open-source, distributed machine learning platform designed for big data analytics and machine learning tasks. It provides scalable and efficient implementations of popular machine learning algorithms, enabling users to perform advanced analytics on large datasets using distributed computing techniques.
 - hyper parameters
@@ -78,22 +86,23 @@ A generative model is a type of model in machine learning that learns the underl
 - l2 norm
   - The L2 norm, also known as the Euclidean norm or the Euclidean distance, is a measure of the magnitude of a vector in Euclidean space. It is defined as the square root of the sum of the squared absolute values of the components of the vector. 
 - Linear Regression 
-  - 
-Linear regression is a statistical method used to model the relationship between a dependent variable (often denoted as 
+  - Linear regression is a statistical method used to model the relationship between a dependent variable (often denoted as 
 (Y) and one or more independent variables (often denoted as 
 (X). It assumes a linear relationship between the independent variables and the dependent variable. Linear regression is widely used for prediction and inference tasks in various fields, including economics, finance, engineering, and social sciences.
 - learnability
   - In the context of machine learning, learnability refers to the theoretical and practical aspects of whether a particular problem or concept can be learned from data. It encompasses the questions of whether a given learning algorithm can effectively learn a target function from training data and whether the learned model can generalize well to unseen data.
 - Logistic Regression
-  - TBD
+  - Logistic regression is a statistical method used for modeling the relationship between a binary dependent variable (target) and one or more independent variables (features). Despite its name, logistic regression is a classification algorithm rather than a regression algorithm, and it's widely used for binary classification tasks.
 - Loss Function
-  - TBD
+  - A loss function, also known as a cost function or objective function, is a measure of how well a machine learning model is performing with respect to its training data and the task it is trying to accomplish. It quantifies the difference between the predicted output of the model and the actual target values in the training data. The choice of a loss function depends on the type of machine learning task being performed (e.g., regression, classification) and the specific characteristics of the problem domain. Some common types of loss functions include:
 
 # M
 - manhattan distance
-  - TBD
+  - Manhattan distance, also known as city block distance or distance, is a metric used to measure the distance between two points in a grid-based system. It is named "Manhattan distance" because it measures the distance a person would walk along the streets of a city laid out in a grid-like pattern, where they can only move horizontally and vertically (no diagonal movement).
 - Maximum Likelihood Estimation (MLE)
  - It is a statistical method used to estimate the parameters of a probability distribution based on observed data. The goal of MLE is to find the set of parameter values that maximize the likelihood function, which measures the probability of observing the given data under the assumed probability distribution.
+- Mean Squared Error (MSE):
+  - TBD
 - Multiple Regression 
   - Multiple regression is a statistical technique used to analyze the relationship between a dependent variable and two or more independent variables. It extends the concept of simple linear regression, which involves predicting a dependent variable based on a single independent variable, to cases where there are multiple predictors.
 - MLP 
@@ -126,13 +135,13 @@ Linear regression is a statistical method used to model the relationship between
   - Pandas and NumPy are two popular Python libraries used for data manipulation and analysis.
     Pandas is designed for data manipulation and analysis, especially for working with labeled and relational data. Pandas provides two primary data structures: Series (1-dimensional labeled array) and DataFrame (2-dimensional labeled data structure, like a table in a database). Use Pandas for data manipulation, cleaning, and analysis, especially when dealing with labeled or tabular data.
 - Principal Component Analysis
-  - TBD
+  - Principal Component Analysis (PCA) is a dimensionality reduction technique used to transform high-dimensional data into a lower-dimensional space while preserving most of the important information. It achieves this by identifying the principal components, which are the directions in which the data varies the most.
 - Perceptrons
-  - TBD
+  - Perceptrons are the building blocks of artificial neural networks and serve as basic computational units that mimic the functioning of biological neurons. They were introduced by Frank Rosenblatt in 1957 and are one of the earliest forms of artificial neural networks.
 - probibilistic context free grammar
-  - TBD 
+  - A Probabilistic Context-Free Grammar (PCFG) is an extension of a context-free grammar (CFG) in which each production rule is associated with a probability. PCFGs are used in natural language processing (NLP) and computational linguistics to model the structure of sentences and generate syntactically valid sentences with associated probabilities. 
 - pooling
-  - TBD
+  - Pooling is a technique used in convolutional neural networks (CNNs) to reduce the spatial dimensions (width and height) of feature maps while retaining the most important information. It helps in controlling overfitting, reducing computational complexity, and improving the efficiency of the network.
 - Plotly
   - TBD
 - PyTorch
