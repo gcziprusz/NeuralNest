@@ -35,10 +35,31 @@
 *** AGI - General intelligence
 **** Pie in sky goal
 ** ML (Machine Learning)
-*** Desicion Trees
-*** Neural Networks
-**** Convolutional Neural Networks
-*** Bayesian Networks
-*** Genetic Programs
-*** Nearest Neighbor 
+*** supervised learning 
+**** Classification
+***** Logistic Regression
+****** Support Vector Machines (SVM)
+***** Random Forests
+***** Desicion Trees
+***** Bayesian Networks
+***** Genetic Programs
+***** Nearest Neighbor 
+***** Neural Networks
+****** Convolutional Neural Networks
+**** Regression
+***** Linear Regression, 
+***** Polynomial Regression, 
+***** Decision Trees, 
+***** Random Forests, 
+***** Gradient Boosting, 
+***** Support Vector Regression (SVR)
+***** Neural Networks
+***** Bayesian Networks
+****** Convolutional Neural Networks
+**** Anomaly Detection
+
+*** unsupervised learning 
+*** semi supervised learning 
+*** reinforcement learning
+
 @endmindmap

@@ -23,8 +23,12 @@
   - convolution is a mathematical way of combining two signals to form a third signal.
 - CNN
   - A specialized type of neural network designed for visual data processing, leveraging convolutional layers to automatically learn hierarchical features from images, making it effective for tasks like image classification and object detection.
+- cross validation
+  - TBD
 - Clustering
   - A machine learning technique that involves grouping similar data points together based on certain features or characteristics, facilitating pattern discovery and analysis within datasets.
+- Classification
+  - Classification is a supervised learning task where the goal is to predict the categorical class label of new instances based on past observations. The output variable in classification is discrete and represents a category or class.
 - cv2 
   - cv2 is a powerful library for working with images in Python.
 # D
@@ -101,6 +105,8 @@ A generative model is a type of model in machine learning that learns the underl
   - Manhattan distance, also known as city block distance or distance, is a metric used to measure the distance between two points in a grid-based system. It is named "Manhattan distance" because it measures the distance a person would walk along the streets of a city laid out in a grid-like pattern, where they can only move horizontally and vertically (no diagonal movement).
 - Maximum Likelihood Estimation (MLE)
  - It is a statistical method used to estimate the parameters of a probability distribution based on observed data. The goal of MLE is to find the set of parameter values that maximize the likelihood function, which measures the probability of observing the given data under the assumed probability distribution.
+- Maximum margin classifier
+  - TBD
 - Mean Squared Error (MSE):
   - TBD
 - Multiple Regression 
@@ -143,30 +149,38 @@ A generative model is a type of model in machine learning that learns the underl
 - pooling
   - Pooling is a technique used in convolutional neural networks (CNNs) to reduce the spatial dimensions (width and height) of feature maps while retaining the most important information. It helps in controlling overfitting, reducing computational complexity, and improving the efficiency of the network.
 - Plotly
-  - TBD
+  - Plotly is a comprehensive, interactive, and web-based data visualization library used for creating rich and customizable graphs, charts, and dashboards. It supports a wide range of chart types including scatter plots, line plots, bar charts, pie charts, heatmaps, 3D plots, and more. Plotly can be integrated with various programming languages such as Python, R, and JavaScript, making it a versatile tool for data visualization across different platforms.
 - PyTorch
-  - TBD
+  - PyTorch is an open-source machine learning framework primarily developed by Facebook's AI Research lab (FAIR). It is widely used for building and training deep learning models due to its flexibility, ease of use, and dynamic computational graph capabilities. PyTorch provides a rich ecosystem of tools and libraries for tasks such as neural network construction, optimization, and deployment.
 
 # Q
 # R
+- radial bases function
+  - A Radial Basis Function (RBF) is a mathematical function whose value depends only on the distance from a specified point, known as the center. RBFs are commonly used in various fields including mathematics, engineering, and computer science, particularly in machine learning and numerical analysis. In machine learning, RBFs are often employed as a kernel function in support vector machines (SVMs) for classification tasks or as a basis for interpolation and approximation methods. They are also utilized in neural networks, where they serve as activation functions or as components in architectures such as radial basis function networks (RBFNs).
 - Recommendation Systems
-  - TBD 
+  - Recommendation systems are algorithms and techniques used to suggest items or content to users based on their preferences, historical behavior, or similarities with other users. These systems are prevalent in various online platforms such as e-commerce websites, streaming services, social media platforms, and news websites. There are primarily two types of recommendation systems, Collaborative Filtering, Content-based filtering
+- Regression 
+  - Regression is a supervised learning task where the goal is to predict a continuous numerical value or quantity based on input features. The output variable in regression is continuous and represents a range of possible values.
+- regularization
+  - Regularization is a technique used in machine learning and statistical modeling to prevent overfitting and improve the generalization performance of models. Overfitting occurs when a model learns to capture noise or irrelevant patterns in the training data, leading to poor performance on unseen data. Regularization introduces additional constraints or penalties on the model parameters during training to discourage complex or extreme solutions that are prone to overfitting.
 - relu (rectified linear unit)
-  - TBD 
+  - ReLU, or Rectified Linear Unit, is an activation function commonly used in artificial neural networks, particularly in deep learning models. It is defined as f(x)=max(0,x), which means that the output is zero for negative input values and equal to the input value for positive input values. ReLU activation function is preferred over other activation functions like sigmoid and tanh due to its simplicity, computational efficiency, and ability to alleviate the vanishing gradient problem during training. 
 
 # S
 - Scikit Learn
-  - TBD
+  - Scikit-learn is an open-source machine learning library for Python that provides simple and efficient tools for data analysis, data preprocessing, machine learning modeling, and evaluation. It is built on top of NumPy, SciPy, and Matplotlib, and it features a consistent and user-friendly interface that facilitates the implementation and experimentation of machine learning algorithms.
 - Seaborn
-  - TBD 
+  - Seaborn is a Python data visualization library based on Matplotlib that provides high-level interfaces for creating attractive and informative statistical graphics. It is built on top of Matplotlib and integrates seamlessly with Pandas data structures, making it easy to visualize data from DataFrames and arrays. 
 - Support Vector Machines
-  - TBD 
+  - Support Vector Machines (SVM) is a supervised learning algorithm used for classification and regression tasks. SVM is particularly effective in high-dimensional spaces and is widely used for tasks such as text classification, image recognition, and bioinformatics. 
 - stochastic gradient descent (sgd)
   - SGD is an iterative optimization algorithm that aims to minimize a cost function by updating the model parameters in the opposite direction of the gradient of the cost function. 
 - Sparse Categorical Crossentropy (SCC)
   - Sparse Categorical Crossentropy (SCC) is a loss function used in multiclass classification tasks where the target labels are integers (sparse representation) rather than one-hot encoded vectors. It is commonly used in machine learning frameworks like TensorFlow and Keras.
 - Sigmoid function 
   - The sigmoid function is a mathematical function that maps input values to a smooth S-shaped curve, typically ranging from 0 to 1 or -1 to 1. In machine learning, the sigmoid function is commonly used as an activation function in neural networks, particularly in the output layer for binary classification problems. It is also used in logistic regression models to model binary outcomes and in other contexts where the output needs to be bounded between 0 and 1.
+- support vector machines
+  - TBD
 - Spyder
   - A free and open source scientific environment written in Python.
 - symbolic regression
