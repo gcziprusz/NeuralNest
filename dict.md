@@ -45,6 +45,8 @@
 - differential calculus
   - Differential calculus is a branch of calculus that focuses on studying the rates at which quantities change. It deals with concepts such as derivatives and rates of change. Differential calculus is fundamental in many fields of science, engineering, economics, and more, as it provides tools for understanding how quantities behave and how they are related to each other.
 # E
+- Euclidean distance 
+  - It's a measure of the straight-line distance between two points in Euclidean space. It is the most common metric used to calculate the distance between two points in a two- or multi-dimensional space.
 - epoch
   - An epoch is when all the training data is used at once and is defined as the total number of iterations of all the training data in one cycle for training the machine learning model. 
 # F
@@ -194,6 +196,8 @@ A generative model is a type of model in machine learning that learns the underl
   - TensorFlow is an end-to-end open source platform for machine learning.
 - TFIDF (Term Frequency-Inverse Document Frequency)
   -  It's a numerical statistic used in information retrieval and text mining to evaluate the importance of a word in a document relative to a collection of documents (corpus). TF-IDF is commonly used as a feature extraction technique in natural language processing (NLP) tasks, such as document classification, clustering, and search engine ranking. (TF): Term frequency measures how frequently a term (word) occurs in a document. (IDF): Inverse document frequency measures the importance of a term across the entire corpus. It's calculated by dividing the total number of documents in the corpus by the number of documents containing the term, and then taking the logarithm of the result. Terms that occur in many documents are given lower weights, while terms that occur in fewer documents are given higher weights.
+- Transfer learning 
+    - It is a machine learning technique where a model trained on one task is repurposed for another related task. Instead of training a new model from scratch, transfer learning leverages the knowledge gained from solving one problem to help solve a different, but related problem more efficiently.
 - trigonometric functions (cos ...)
   - Trigonometric functions are mathematical functions that relate the angles of a right triangle to the ratios of the lengths of its sides. In machine learning, trigonometric functions can be utilized in various ways, especially when dealing with problems involving periodic patterns or cyclic data.
 - tree bank
@@ -203,6 +207,10 @@ A generative model is a type of model in machine learning that learns the underl
   - Underfitting occurs when a machine learning model is too simple to capture the underlying structure of the data. In other words, the model is not able to learn the training data effectively, leading to poor performance on both the training data and new, unseen data. Underfitting typically happens when the model is too simple or lacks the capacity to represent the complexity of the underlying data distribution.
 
 # V
+- Vector quantization (VQ) 
+  - It is a technique used in signal processing and data compression to reduce the amount of data required to represent a signal or dataset while preserving essential information. It involves partitioning a set of multidimensional data points (vectors) into clusters and representing each vector by the cluster centroid it belongs to.
+- VGG16
+  - VGG16 is a convolutional neural network (CNN) architecture proposed by the Visual Geometry Group (VGG) at the University of Oxford. It is characterized by its simplicity and uniform architecture, consisting mainly of 3x3 convolutional layers stacked on top of each other, with max-pooling layers interspersed between them. VGG16 is particularly famous for its performance in image classification tasks.
 # W
 # X
 # Y

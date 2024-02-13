@@ -1,0 +1,4 @@
+- k-means vs k-nearest neighbor
+- Semi supervised learning 
+    - active learning 
+- t test stat
