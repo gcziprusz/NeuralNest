@@ -25,6 +25,8 @@
   - A specialized type of neural network designed for visual data processing, leveraging convolutional layers to automatically learn hierarchical features from images, making it effective for tasks like image classification and object detection.
 - cross validation
   - TBD
+- Contextual Bandit Problem
+  - The Contextual Bandit Problem is an extension of the classical multi-armed bandit problem that incorporates additional contextual information or features into the decision-making process. In the contextual bandit problem, each action (or arm) is associated with a set of features or context, and the goal is to learn a policy that selects the best action based on the observed context while maximizing cumulative rewards.
 - Clustering
   - A machine learning technique that involves grouping similar data points together based on certain features or characteristics, facilitating pattern discovery and analysis within datasets.
 - Classification
@@ -49,6 +51,11 @@
   - It's a measure of the straight-line distance between two points in Euclidean space. It is the most common metric used to calculate the distance between two points in a two- or multi-dimensional space.
 - epoch
   - An epoch is when all the training data is used at once and is defined as the total number of iterations of all the training data in one cycle for training the machine learning model. 
+
+- Epsilon-Greedy
+  - Epsilon-Greedy is a simple yet effective strategy used in reinforcement learning and multi-armed bandit problems to balance exploration and exploitation. The term "epsilon" refers to a small positive value (usually between 0 and 1), representing the exploration rate.
+- Exploration vs. Exploitation 
+  - In reinforcement learning and bandit problems, there is a trade-off between exploration (trying new actions to learn their rewards) and exploitation (choosing actions that are known to have high rewards). Epsilon-Greedy aims to balance these two objectives
 # F
 - feature engineering 
   - Feature engineering is a crucial process in machine learning and data science that involves selecting, transforming, and creating input variables (features) to improve the performance of predictive models. It aims to enhance the quality and relevance of the features used by the model, thereby improving its ability to make accurate predictions or classifications.
@@ -89,6 +96,8 @@ A generative model is a type of model in machine learning that learns the underl
 - kernel
   - A filter is a collection of kernels, although the ml domain may use the two terms filter and kernel interchangeably.
 # L
+- Laplace smoothing
+  - Laplace smoothing, also known as add-one smoothing or additive smoothing, is a technique used to smooth probability estimates in cases where some outcomes have zero probabilities in the training data. It is commonly applied in Bayesian statistics, natural language processing, and machine learning algorithms, particularly in the context of naive Bayes classifiers and language models.
 - l2 norm
   - The L2 norm, also known as the Euclidean norm or the Euclidean distance, is a measure of the magnitude of a vector in Euclidean space. It is defined as the square root of the sum of the squared absolute values of the components of the vector. 
 - Linear Regression 
@@ -113,6 +122,8 @@ A generative model is a type of model in machine learning that learns the underl
   - TBD
 - Multiple Regression 
   - Multiple regression is a statistical technique used to analyze the relationship between a dependent variable and two or more independent variables. It extends the concept of simple linear regression, which involves predicting a dependent variable based on a single independent variable, to cases where there are multiple predictors.
+- multi-armed bandit problem
+  - The multi-armed bandit problem is a classic problem in decision theory and sequential decision-making under uncertainty. It is named after the metaphor of a gambler facing a row of slot machines (bandits), each with a different probability distribution of payouts. The goal of the gambler is to maximize the total reward gained over time by choosing which slot machine to play in each round.
 - MLP 
   - MLP stands for Multilayer Perceptron, which is a type of artificial neural network (ANN) composed of multiple layers of neurons (nodes) arranged in a feedforward manner. MLPs are one of the most common types of neural networks used in machine learning and are widely applied to various tasks, including classification, regression, and pattern recognition.
 - MNIST 
@@ -205,7 +216,8 @@ A generative model is a type of model in machine learning that learns the underl
 # U
 - Underfitting 
   - Underfitting occurs when a machine learning model is too simple to capture the underlying structure of the data. In other words, the model is not able to learn the training data effectively, leading to poor performance on both the training data and new, unseen data. Underfitting typically happens when the model is too simple or lacks the capacity to represent the complexity of the underlying data distribution.
-
+- Upper Confidence Bound (UCB)
+  - Upper Confidence Bound (UCB) is a popular algorithm used in the context of multi-armed bandit problems and reinforcement learning to balance exploration and exploitation. The UCB algorithm aims to efficiently allocate resources (e.g., trials, interactions) among multiple actions or arms to maximize cumulative rewards while minimizing regret.
 # V
 - Vector quantization (VQ) 
   - It is a technique used in signal processing and data compression to reduce the amount of data required to represent a signal or dataset while preserving essential information. It involves partitioning a set of multidimensional data points (vectors) into clusters and representing each vector by the cluster centroid it belongs to.
