@@ -15,3 +15,29 @@ Brock
 profanity filter racial filters etc etc 
 LLM chaining
 Foundation Model AWS?
+drools,klara knowledge based on JAVA
+temporal difference learning
+Nash equilibrium
+counterfactual regret
+
+q-learning
+DQN
+stratego
+convolution
+vgg16
+derivative
+max pooling layer
+vanishing or exploding gradient
+bach normalization
+tpu?
+rmsprop 
+adam
+word2vec
+optical char recognition
+automatic speech recognition
+latent semantic analisys
+glove
+ask
+one hot
+convolutional layer
+
