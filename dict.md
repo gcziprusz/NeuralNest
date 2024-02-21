@@ -4,20 +4,18 @@
 
 # A
 - adam
-    - TBD
+    - Adam (short for Adaptive Moment Estimation) is an optimization algorithm commonly used for training deep learning models. It is an extension of stochastic gradient descent (SGD) and combines ideas from both momentum optimization and RMSprop (Root Mean Square Propagation).
 - adversarial example
-    - TBD
-- ask
-    - TBD
+    - An adversarial example refers to a carefully crafted input to a machine learning model that is intentionally designed to cause the model to make a mistake or misclassify the input. These examples are created by making small, imperceptible perturbations to the input data, which are often imperceptible to humans but can significantly affect the model's predictions.
 - automatic speech recognition
-    - TBD
+    - Automatic Speech Recognition (ASR), also known as speech-to-text conversion, is the technology that enables computers to transcribe spoken language into text. ASR systems process audio input from various sources, such as microphones or recorded audio files, and convert it into textual form, making it accessible for further analysis, processing, or integration into other applications.
 - Activation function
   - An activation function is a mathematical operation applied to the output of a neuron in a neural network. It determines whether the neuron should be activated or not based on the weighted sum of its inputs. Activation functions introduce non-linearity, allowing neural networks to learn complex patterns and relationships in data. Common activation functions include Sigmoid, Hyperbolic Tangent (tanh), Rectified Linear Unit (ReLU), Leaky ReLU, and Softmax.
 - Adam 
   - Adam, short for "Adaptive Moment Estimation," is an optimization algorithm commonly used in machine learning for training deep neural networks. It combines the benefits of two other popular optimization methods, RMSprop and Momentum.
 # B
 - bach normalization
-    - TBD
+    - Batch Normalization (BatchNorm) is a technique used to accelerate the training of deep neural networks by normalizing the input of each layer. It was proposed by Sergey Ioffe and Christian Szegedy in their paper titled "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift.
 - backpropagation
   - Backpropagation, short for "backward propagation of errors," is a supervised learning algorithm used in the training of artificial neural networks. It involves the iterative adjustment of the network's weights based on the difference between the predicted output and the actual target values. The process starts with a forward pass, where input data is fed through the network to generate predictions. The error is then calculated by comparing these predictions to the actual targets. In the backward pass, the error is propagated backward through the network, and the weights are updated using optimization techniques, such as gradient descent, to minimize the error. Backpropagation enables neural networks to learn and improve their performance by adjusting their internal parameters during the training process.
 - Bag of words
@@ -27,10 +25,14 @@
 - Binary Cross-Entropy Loss
   - Binary Cross-Entropy Loss, also known as Binary Log Loss, is a common loss function used in binary classification tasks, particularly in scenarios where the model outputs probabilities of belonging to one of the two classes. It measures the difference between the predicted probabilities and the true binary labels.
 # C
+- causal inference
+    - TBD
+- causal graph
+    - TBD
 - convolution
-    - TBD
+    - Convolution is a fundamental mathematical operation widely used in various fields, including signal processing, image processing, and deep learning. In the context of deep learning, convolutional operations play a central role in convolutional neural networks (CNNs), which are especially well-suited for tasks involving grid-like data, such as images
 - convolutional layer
-    - TBD
+    - Convolutional layers apply convolution operations to input data using learnable filters, allowing the network to automatically extract hierarchical representations of the input.
 - Categorical Cross-Entropy Loss
   - Categorical Cross-Entropy Loss, also known as Softmax Cross-Entropy Loss, is a widely used loss function in multi-class classification tasks. It measures the difference between the predicted class probabilities and the true class labels in scenarios where the target variable can belong to one of multiple classes.
 - Counterfactual regret 
@@ -50,14 +52,18 @@
 - cv2 
   - cv2 is a powerful library for working with images in Python.
 # D
+- dowhy by microsoft 
+    - TBD
+- do calculus
+    - TBD
 - derivative
-    - TBD
+    - In calculus, the derivative of a function represents the rate at which the function's value changes with respect to its input variable. It provides information about how the function behaves locally around a specific point, such as whether it is increasing, decreasing, or stationary at that point.
 - differentiable programming
-    - TBD
+    - Differentiable programming is a way of writing computer programs that makes them easy to differentiate. In other words, you can easily find out how changing one part of the program will affect the output, even if the program is complex.
 - diffusion model
-    - TBD
+    - The diffusion model is a computational model commonly used in cognitive psychology and neuroscience to describe decision-making processes. It is based on the idea that decision-making involves accumulating evidence over time until a threshold is reached, at which point a decision is made. In machine learning, the diffusion model refers to a probabilistic generative model used for modeling sequential data, such as time series or text data. Unlike the diffusion models used in cognitive psychology, which focus on decision-making processes, the diffusion model in machine learning is primarily used for density estimation and generative modeling tasks.
 - DQN
-    - TBD
+    - DQN stands for Deep Q-Network, which is a type of reinforcement learning algorithm used for training agents to make sequential decisions in environments with discrete actions. It was introduced by DeepMind in 2013 and has since become a foundational algorithm in the field of deep reinforcement learning.
 - data leakage
   - The inadvertent inclusion of information in the training process that should only be available during the testing phase, often resulting in over-optimistic model performance estimates due to the unintentional exposure to future information.
 - Decision Trees
@@ -72,7 +78,7 @@
   - Differential calculus is a branch of calculus that focuses on studying the rates at which quantities change. It deals with concepts such as derivatives and rates of change. Differential calculus is fundamental in many fields of science, engineering, economics, and more, as it provides tools for understanding how quantities behave and how they are related to each other.
 # E
 - expectation maximization
-    - TBD
+    - Expectation-Maximization (EM) is a powerful iterative algorithm used for estimating parameters of probabilistic models, particularly when dealing with latent variables or missing data. It is widely applied in various fields, including machine learning, statistics, and signal processing, for tasks such as clustering, density estimation, and parameter estimation in mixture models.
 - Euclidean distance 
   - It's a measure of the straight-line distance between two points in Euclidean space. It is the most common metric used to calculate the distance between two points in a two- or multi-dimensional space.
 - epoch
@@ -84,7 +90,7 @@
   - In reinforcement learning and bandit problems, there is a trade-off between exploration (trying new actions to learn their rewards) and exploitation (choosing actions that are known to have high rewards). Epsilon-Greedy aims to balance these two objectives
 # F
 - fairsec
-    - TBD
+    - FairSec, short for "Fair Sequence-to-Sequence," is a research framework developed by Facebook AI Research (FAIR) that aims to address fairness issues in machine translation systems. Machine translation systems, which convert text from one language to another, often suffer from biases that can lead to unfair or inequitable translations, especially for underrepresented languages or sensitive topics.
 - feature engineering 
   - Feature engineering is a crucial process in machine learning and data science that involves selecting, transforming, and creating input variables (features) to improve the performance of predictive models. It aims to enhance the quality and relevance of the features used by the model, thereby improving its ability to make accurate predictions or classifications.
 - filter 
@@ -95,9 +101,9 @@
  - A Model trained on massive datasets, foundation models (FMs) are large deep learning neural networks that have changed the way data scientists approach machine learning (ML). Rather than develop artificial intelligence (AI) from scratch, data scientists use a foundation model as a starting point to develop ML models that power new applications more quickly and cost-effectively. The term foundation model was coined by researchers to describe ML models trained on a broad spectrum of generalized and unlabeled data and capable of performing a wide variety of general tasks such as understanding language, generating text and images, and conversing in natural language.
 # G
 - glove
-    - TBD
+    - GloVe, short for Global Vectors for Word Representation, is an unsupervised learning algorithm used to obtain vector representations (embeddings) for words in a high-dimensional vector space. These word embeddings capture semantic and syntactic relationships between words based on their co-occurrence statistics in large text corpora.
 - gram matrix
-    - TBD
+    - The Gram matrix, also known as the Gramian matrix or the covariance matrix, is a mathematical concept commonly used in linear algebra, signal processing, and machine learning. It is named after the Danish mathematician Jørgen Pedersen Gram. In the context of machine learning and deep learning, the Gram matrix is often used in feature extraction and style transfer tasks, particularly in the field of computer vision.
 - Generative Adversarial Networks (GANs)
   - Generative Adversarial Networks (GANs) are a class of artificial intelligence algorithms introduced by Ian Goodfellow and his colleagues in 2014. GANs are composed of two neural networks, namely the generator and the discriminator, which are trained simultaneously through a competitive process.
 - Generative model
@@ -127,6 +133,8 @@
 - hyper parameters
   - Hyperparameters are parameters that are not directly learned from the training data but are set prior to the training process. They control the behavior and performance of machine learning algorithms and models and are typically tuned during the training process to optimize the model's performance on the validation or test data.
 # I
+- inverse reinforcement
+    - TBD
 # J
 - jupyter
   - Jupyter is an open-source project that provides a web-based interactive computing platform. It supports various programming languages, but it's most commonly used with languages like Python, R, and Julia.
@@ -174,6 +182,8 @@
 - MNIST 
   - MNIST stands for Modified National Institute of Standards and Technology database, and it's a widely used dataset in the field of machine learning and computer vision. It consists of a large collection of handwritten digits that are commonly used for training various image classification algorithms.
 # N
+- nuisance variables
+    - TBD
 - Naive bayes
   - Naive Bayes is a classification algorithm based on Bayes' theorem with an assumption of independence among predictors (features). It's a simple yet effective algorithm commonly used for text classification and other classification tasks in machine learning.
 - Nash equilibrium 
@@ -237,6 +247,8 @@
   - ReLU, or Rectified Linear Unit, is an activation function commonly used in artificial neural networks, particularly in deep learning models. It is defined as f(x)=max(0,x), which means that the output is zero for negative input values and equal to the input value for positive input values. ReLU activation function is preferred over other activation functions like sigmoid and tanh due to its simplicity, computational efficiency, and ability to alleviate the vanishing gradient problem during training. 
 
 # S
+- stocastic effect
+    - TBD
 - stratego
     - TBD
 - style transfer

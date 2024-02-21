@@ -2,3 +2,6 @@
 - Learn a bit about at test stat
 - Look into prompt engineering (deepmind course?)
 - Try out CodeWhisperer
+- look at the company nest
+- Learn about research using ml to orient solar panels
+- Learn about sony ai ibo robot
