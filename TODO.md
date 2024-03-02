@@ -5,3 +5,20 @@
 - look at the company nest
 - Learn about research using ml to orient solar panels
 - Learn about sony ai ibo robot
+- create amind map of the ML related math 
+- look into idea to predict player performance 
+- double descent
+- NeurIps
+- lottery ticket scheme
+- degrees of a polynomial
+- homomorphic encryption
+- differential privacy
+- decoys
+- federated machine learning
+- edge AI
+- alloy
+- MAML
+- satisfyability solvers
+- differential programming
+- specification program
+- meta learning
