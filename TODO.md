@@ -22,3 +22,35 @@
 - differential programming
 - specification program
 - meta learning
+
+- alternate Ml coursera + khan math + deeplerning prompt engineering
+
+- standard deviation
+- scalar 
+- vector 
+- velocity
+- sin cos etc .. 
+- real coordinate space
+- real numbers
+- vector component
+- member notation ∈ 
+- real valued tuple
+- co-linear
+- unit vector
+
+- lama models
+- transformer architecture
+- falcon 40B OSS model
+- Code llama
+- cyberseceval
+- llama guard
+- amazon bedrock
+- anyscale
+- replicate
+- together ai
+- 4-bit quantization
+
+- project idea summarize emails extract:
+    generete a todo list 
+    key points
+    more?

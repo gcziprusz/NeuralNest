@@ -1,6 +1,9 @@
 # NeuralNest
 Repository for an eclectic collection of AI and machine learning learning resources
 
+# Prompt Engineering Techniques
+[prompt_engineering.md](./prompt_engineering.md)
+
 # Glossary
 [dict.md](./dict.md)
 

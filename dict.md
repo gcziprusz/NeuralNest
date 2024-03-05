@@ -159,7 +159,7 @@
   - In the context of machine learning, learnability refers to the theoretical and practical aspects of whether a particular problem or concept can be learned from data. It encompasses the questions of whether a given learning algorithm can effectively learn a target function from training data and whether the learned model can generalize well to unseen data.
 - Logistic Regression
   - Logistic regression is a statistical method used for modeling the relationship between a binary dependent variable (target) and one or more independent variables (features). Despite its name, logistic regression is a classification algorithm rather than a regression algorithm, and it's widely used for binary classification tasks.
-- Loss Function
+- Loss Function (Cost Function)
   - A loss function, also known as a cost function or objective function, is a measure of how well a machine learning model is performing with respect to its training data and the task it is trying to accomplish. It quantifies the difference between the predicted output of the model and the actual target values in the training data. The choice of a loss function depends on the type of machine learning task being performed (e.g., regression, classification) and the specific characteristics of the problem domain. Some common types of loss functions include:
 
 # M
@@ -173,6 +173,9 @@
   - The maximum margin classifier, often associated with support vector machines (SVMs), is a binary linear classification model that aims to find the hyperplane that maximizes the margin between classes in the feature space. It is a powerful algorithm for classification tasks, particularly in scenarios where the data is linearly separable or nearly separable.
 - Mean Squared Error (MSE)
   - Mean Squared Error (MSE) is a commonly used loss function in regression tasks. It measures the average squared difference between the predicted values and the actual values in a dataset. MSE is widely used because it penalizes large errors more heavily than small errors, making it suitable for tasks where outliers or large deviations from the true values are important.
+  ```
+  𝐽(𝑤,𝑏)=12𝑚∑𝑖=0𝑚−1(𝑓𝑤,𝑏(𝑥(𝑖))−𝑦(𝑖))2(1)
+  ```
 - Multiple Regression 
   - Multiple regression is a statistical technique used to analyze the relationship between a dependent variable and two or more independent variables. It extends the concept of simple linear regression, which involves predicting a dependent variable based on a single independent variable, to cases where there are multiple predictors.
 - multi-armed bandit problem
@@ -209,6 +212,10 @@
 - overfitting
   - Overfitting is a common issue in machine learning where a model learns the training data too well, capturing noise and random fluctuations instead of the underlying patterns. As a result, an overfit model performs exceptionally well on the training data but fails to generalize effectively to new, unseen data.
 # P
+- Parameters 
+  - They are also known as coefficients or weights, are vital components in linear regression models. They represent the relationships between input variables and the target outcome, such as predicting house prices based on square footage. These parameters are optimized during training to minimize prediction errors, ensuring accurate model performance. Understanding and managing parameters are essential for developing effective linear regression models that generalize well to new data. 
+  In linear regression you will have 2 of these per feature.
+
 - phonetic segmentation
     - TBD
 - pandas
@@ -297,6 +304,8 @@
     - TBD
 - Underfitting 
   - Underfitting occurs when a machine learning model is too simple to capture the underlying structure of the data. In other words, the model is not able to learn the training data effectively, leading to poor performance on both the training data and new, unseen data. Underfitting typically happens when the model is too simple or lacks the capacity to represent the complexity of the underlying data distribution.
+- Univariate Linear Regression
+  - Is a statistical method for modeling the relationship between a single predictor variable (independent variable) and a target variable (dependent variable). It involves fitting a linear equation to the data to find the best-fitting line, characterized by its slope (the change in the target variable per unit change in the predictor variable) and intercept (the value of the target variable when the predictor variable is zero). The objective is to minimize the difference between observed and predicted values using techniques like mean squared error (MSE), enabling accurate predictions and inference. Univariate linear regression is foundational in both statistics and machine learning, commonly applied in predictive modeling tasks.
 - Upper Confidence Bound (UCB)
   - Upper Confidence Bound (UCB) is a popular algorithm used in the context of multi-armed bandit problems and reinforcement learning to balance exploration and exploitation. The UCB algorithm aims to efficiently allocate resources (e.g., trials, interactions) among multiple actions or arms to maximize cumulative rewards while minimizing regret.
 # V
