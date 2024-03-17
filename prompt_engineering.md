@@ -30,3 +30,33 @@ A model's knowledge of the world ends at the moment of its training - so it won'
 LLMs can perform better at reasoning and logic problems if you ask them to break the problem down into smaller steps.
 
 Since LLMs predict their answer one token at a time, the best practice is to ask them to think step by step, and then only provide the answer after they have explained their reasoning.
+
+
+## Model-Graded Evaluation: Summarization
+Interestingly, you can ask a LLM to evaluate the responses of other LLMs.
+
+## Safety
+- llama guard user(input)
+- llama guard agent(output)
+
+# Summary
+
+# Clear Specific instructions
+# Iterative prompt development
+# Give the LLM time to think
+
+# Capabilities 
+
+### Summarizing
+### Inferring Sentiment analysis
+### Transforming aka Translating
+### Expanding
+
+## Settings 
+### Temperature 
+
+## Special usecase
+### Custom Chatbots
+
+## Tools 
+### redlines for diff

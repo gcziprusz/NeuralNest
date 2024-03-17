@@ -1,5 +1,6 @@
 # Glossary of Terms
-####  [A](#A) | [B](#B) | [C](#C) | [D](#D) | [E](#E) | [F](#F) | [G](#G) | [H](#H) | [I](#I) | [J](#J) | [K](#K) | [L](#L) | [M](#M) | [N](#N) | [O](#O) | [P](#P) | [Q](#Q) | [R](#R) | [S](#S) | [T](#T) | [U](#U) | [V](#V) | [W](#W) | [X](#X) | [Y](#Y) | [Z](#Z)
+####  [A](#A) | [B](#B) | [C](#C) | [D](#D) | [E](#E) | [F](#F) | [G](#G) | [H](#H) | [I](#I) | [J](#J) | [K](#K) | [L](#L) | [M](#M) | [N](#N) | [O](#O) | [P](#P) | [Q](#Q) | [R](#R) | [S](#S) | [T](#T) | [U](#U) | [V](#V) | [W](#W) | [X](#X) | [Y](#Y) | [Z](#Z) | [1](#1) | [2](#2) | [3](#3) | [4](#4)
+
 
 
 # A
@@ -29,6 +30,8 @@
     - TBD
 - causal graph
     - TBD
+- Co-linear
+    - Describes points or vectors that lie on the same straight line.
 - convolution
     - Convolution is a fundamental mathematical operation widely used in various fields, including signal processing, image processing, and deep learning. In the context of deep learning, convolutional operations play a central role in convolutional neural networks (CNNs), which are especially well-suited for tasks involving grid-like data, such as images
 - convolutional layer
@@ -145,6 +148,8 @@
 - kernel
   - A filter is a collection of kernels, although the ml domain may use the two terms filter and kernel interchangeably.
 # L
+- Language Model (LM)
+    - A statistical model that predicts the next word in a sequence of text based on the context provided by the previous words.
 - latent semantic analisys
     - TBD
 - Laplace smoothing
@@ -163,6 +168,8 @@
   - A loss function, also known as a cost function or objective function, is a measure of how well a machine learning model is performing with respect to its training data and the task it is trying to accomplish. It quantifies the difference between the predicted output of the model and the actual target values in the training data. The choice of a loss function depends on the type of machine learning task being performed (e.g., regression, classification) and the specific characteristics of the problem domain. Some common types of loss functions include:
 
 # M
+- Member notation ∈
+    - Denotes that an element belongs to a particular set.
 - max pooling layer
     - TBD
 - manhattan distance
@@ -238,6 +245,12 @@
 - q-learning
     - TBD
 # R
+- Real coordinate space
+    - A geometric space defined by real numbers, representing points along one or more axes.
+- Real numbers
+    - A set of numbers that includes all rational and irrational numbers, represented on the real number line.
+- Real valued tuple
+    - An ordered collection of real numbers, typically represented as (x1, x2, ..., xn).
 - rmsprop 
     - TBD
 - radial bases function
@@ -254,6 +267,12 @@
   - ReLU, or Rectified Linear Unit, is an activation function commonly used in artificial neural networks, particularly in deep learning models. It is defined as f(x)=max(0,x), which means that the output is zero for negative input values and equal to the input value for positive input values. ReLU activation function is preferred over other activation functions like sigmoid and tanh due to its simplicity, computational efficiency, and ability to alleviate the vanishing gradient problem during training. 
 
 # S
+- Standard deviation
+    - A measure of the dispersion or spread of a set of data points around the mean.
+- Scalar
+    - A single quantity representing magnitude only, devoid of direction.
+- Vector
+    - An object with both magnitude and direction, often represented by an arrow.
 - stocastic effect
     - TBD
 - stratego
@@ -279,6 +298,10 @@
 - symbolic regression
   - Symbolic regression is a machine learning technique that aims to find mathematical expressions or formulas that best describe a given dataset. Unlike traditional regression methods that fit parametric models (such as linear regression or polynomial regression) to data, symbolic regression seeks to discover mathematical relationships in an unrestricted, symbolic form.
 # T
+- Transformer architecture
+    - A neural network architecture based on self-attention mechanisms, widely used in natural language processing tasks.
+- Trigonometric functions (sin, cos, etc.)
+    - Mathematical functions describing the relationships between angles and the lengths of the sides of a right triangle.
 - tpu?
     - TBD
 - transformer network
@@ -311,6 +334,10 @@
 # V
 - vanishing or exploding gradient
     - TBD
+- Vector component
+    - The projection of a vector onto a coordinate axis, indicating its magnitude in that direction.
+- Velocity
+    - The rate of change of displacement of an object with respect to time, indicating both speed and direction.
 - vgg16
     - TBD
 - Variational Autoencoders (VAEs) 
@@ -325,3 +352,6 @@
 # X
 # Y
 # Z
+# 4
+- 4-bit quantization
+    - A process of reducing the number of bits used to represent numerical values, often used in optimization or compression techniques.
