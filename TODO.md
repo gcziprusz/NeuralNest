@@ -19,7 +19,50 @@
 - differential programming
 - specification program
 - meta learning
+- overfitting - high bias
+- underfitting - high variance
+- harmonic mean 
+- deepfakes
 
+- Suno
+- Claude
+- Midjourney
+- Tiktoken
+- Tokenization
+- DaVinci 
+- Wordvec2
+- RAG
+- Kuda? 
+- Linode?
+- Lambda company
+- 4090 ?
+- Llama-index
+- Chat with rtx Intel
+- Hugging face model hub
+- Langchain
+- Pinecone
+- Pg vector
+- Elasticsearch 
+- Ollama
+- Sbert
+
+DECISIION TREES
+- antrophy
+- gene criteria
+- information gain
+- generalize well
+- feature selection
+- NAIR 
+- AI4ALL
+- ANI vs AGI
+- matmul
+- Neural network activation functions
+    - linear aka no activation function
+    - sigmoid activation function
+    - ReLU activation function
+    - softmax activation function
+- calculus derivatives
+- chain rule calculus
 - project idea summarize emails extract:
     generete a todo list 
     key points

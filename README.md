@@ -4,6 +4,10 @@ Repository for an eclectic collection of AI and machine learning learning resour
 # Prompt Engineering Techniques
 [prompt_engineering.md](./prompt_engineering.md)
 
+# Statistics
+[statistics.md](./statistics.md)
+[./fundamentals_of_probability.md](./fundamentals_of_probability.md)
+
 # Glossary
 [dict.md](./dict.md)
 
