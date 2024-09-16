@@ -37,7 +37,7 @@
    P(A \cup B) = P(A) + P(B) - P(A \cap B)
    \]
 
-6. **Product Rule (Multiplication Rule)**  
+6. **Product Rule (Multiplication Rule) (Joint Probability)**  
    **Definition**: Used to calculate the probability of the intersection of two events.  
    **Formulas**:  
    - Independent Events: 
