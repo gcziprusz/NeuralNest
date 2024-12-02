@@ -332,8 +332,8 @@
 - Upper Confidence Bound (UCB)
   - Upper Confidence Bound (UCB) is a popular algorithm used in the context of multi-armed bandit problems and reinforcement learning to balance exploration and exploitation. The UCB algorithm aims to efficiently allocate resources (e.g., trials, interactions) among multiple actions or arms to maximize cumulative rewards while minimizing regret.
 # V
-- vanishing or exploding gradient
-    - TBD
+- vanishing gradient
+    - It occurs during the training of deep neural networks, especially those with recurrent architectures or many layers. It makes learning difficult because gradients (used to update the model's parameters) become very small as they are back-propagated through the network, effectively "vanishing."
 - Vector component
     - The projection of a vector onto a coordinate axis, indicating its magnitude in that direction.
 - Velocity
