@@ -14,6 +14,10 @@
   - An activation function is a mathematical operation applied to the output of a neuron in a neural network. It determines whether the neuron should be activated or not based on the weighted sum of its inputs. Activation functions introduce non-linearity, allowing neural networks to learn complex patterns and relationships in data. Common activation functions include Sigmoid, Hyperbolic Tangent (tanh), Rectified Linear Unit (ReLU), Leaky ReLU, and Softmax.
 - Adam 
   - Adam, short for "Adaptive Moment Estimation," is an optimization algorithm commonly used in machine learning for training deep neural networks. It combines the benefits of two other popular optimization methods, RMSprop and Momentum.
+- Algorithmic bias
+  - It occurs when a machine learning model systematically produces unfair or discriminatory outcomes based on sensitive attributes.
+- ARIMA 
+  - TBD
 # B
 - bach normalization
     - Batch Normalization (BatchNorm) is a technique used to accelerate the training of deep neural networks by normalizing the input of each layer. It was proposed by Sergey Ioffe and Christian Szegedy in their paper titled "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift.
@@ -59,6 +63,8 @@
     - TBD
 - do calculus
     - TBD
+- Double descent
+  - Is  the observation that as model complexity increases beyond the interpolation threshold, the test error initially increases but then decreases again.
 - derivative
     - In calculus, the derivative of a function represents the rate at which the function's value changes with respect to its input variable. It provides information about how the function behaves locally around a specific point, such as whether it is increasing, decreasing, or stationary at that point.
 - differentiable programming
@@ -168,6 +174,8 @@
   - A loss function, also known as a cost function or objective function, is a measure of how well a machine learning model is performing with respect to its training data and the task it is trying to accomplish. It quantifies the difference between the predicted output of the model and the actual target values in the training data. The choice of a loss function depends on the type of machine learning task being performed (e.g., regression, classification) and the specific characteristics of the problem domain. Some common types of loss functions include:
 
 # M
+- Markov Decision Process (MDP)
+  - Is a  mathematical framework for modeling decision-making in situations where outcomes are partly random and partly under the control of a decision-maker.
 - Member notation ∈
     - Denotes that an element belongs to a particular set.
 - max pooling layer
@@ -242,9 +250,11 @@
   - PyTorch is an open-source machine learning framework primarily developed by Facebook's AI Research lab (FAIR). It is widely used for building and training deep learning models due to its flexibility, ease of use, and dynamic computational graph capabilities. PyTorch provides a rich ecosystem of tools and libraries for tasks such as neural network construction, optimization, and deployment.
 
 # Q
-- q-learning
-    - TBD
+- Q-Learning
+  - Is a model-free reinforcement learning algorithm that seeks to find the best action to take in a given state, by learning a Q-function that estimates the expected value of taking a given action in a given state.
 # R
+- Recurrent neural network (RNN)
+  - Is a type of neural network that processes sequential data by maintaining a hidden state that captures information from previous elements.
 - Real coordinate space
     - A geometric space defined by real numbers, representing points along one or more axes.
 - Real numbers
@@ -347,8 +357,10 @@
 - VGG16
   - VGG16 is a convolutional neural network (CNN) architecture proposed by the Visual Geometry Group (VGG) at the University of Oxford. It is characterized by its simplicity and uniform architecture, consisting mainly of 3x3 convolutional layers stacked on top of each other, with max-pooling layers interspersed between them. VGG16 is particularly famous for its performance in image classification tasks.
 # W
+- Word embeddings
+  - Is a dense vector representations of words that capture semantic relationships between them.
 - word2vec
-    - TBD
+    - Is a word embedding technique a neural network-based model that learns to represent words as high-dimensional vectors in a continuous space, capturing their semantic relationships and contextual similarities.
 # X
 # Y
 # Z
