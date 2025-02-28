@@ -48,6 +48,8 @@
   - convolution is a mathematical way of combining two signals to form a third signal.
 - CNN
   - A specialized type of neural network designed for visual data processing, leveraging convolutional layers to automatically learn hierarchical features from images, making it effective for tasks like image classification and object detection.
+- CNTK (Microsoft Cognitive Toolkit)
+  - A deep learning framework optimized for scalability, parallelism, and distributed training, particularly suited for large-scale applications.
 - cross validation
   - Cross-validation is a resampling technique used to evaluate the performance of a machine learning model on unseen data. It is particularly useful for assessing how well a model generalizes to new data and for selecting optimal hyperparameters.
 - Contextual Bandit Problem
@@ -211,6 +213,8 @@
 - NumPy
   - NumPy is a Python library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices.
 # O
+- Occam's Razor (Ockham)
+  - Among multiple models that achieve similar performance, the simpler model (with fewer parameters and less complexity) is preferred, as it is less likely to overfit and generalizes better to unseen data.
 - optical char recognition
     - TBD
 - One-hot encoding 
@@ -313,7 +317,9 @@
 - Trigonometric functions (sin, cos, etc.)
     - Mathematical functions describing the relationships between angles and the lengths of the sides of a right triangle.
 - tpu?
-    - TBD
+    - (Tensor Processing Unit) is a specialized hardware accelerator developed by Google, designed to speed up machine learning workloads, particularly TensorFlow-based deep learning models, with high efficiency and low power consumption.
+- Theano 
+  - A deprecated deep learning library that specialized in symbolic computation and GPU acceleration, serving as the foundation for early frameworks like Keras.
 - transformer network
     - TBD
 - tableau
